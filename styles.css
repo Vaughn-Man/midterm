@@ -1,0 +1,32 @@
+table th, td{
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+.tablecontainer {
+    font-size: x-large;
+    margin-right: auto;
+    margin-left: auto;
+}
+.inputfield
+        {
+            align-items: center;
+            margin-bottom: 12px;
+        }
+#myInput{
+    width: 20%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #240303;
+    margin-bottom: 12px;
+}
+body{
+    background-color: rgb(20, 243, 243);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    
+   
+    <div class="inputfield">
+    <h1>School Enrollment Application</h1>
+    <p>First Name: <input id="fname"></p>
+    <p>Middle Name: <input id="mname"></p>
+    <p>Last Name: <input id="lname"></p>
+    <p>Age: <input id="age"></p>
+    <p>Gender: <select name="gender" id="gender" width=100 style="width: 150px">
+        <option value='' selected>Select a Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option></select> </p>
+    <p>Birthday: <input id="birth"></p>
+    <p>Course: <input id="course"></p>
+    <p>School Year: <input id="year"></p>
+    <input type="button" id="submit" value="Submit">
+    </div>
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for students">
+    <div class="tablecontainer">
+    <table id="table">
+    <thead>
+        <th>First Name</th>
+        <th>Middle Name</th>
+        <th>Last Name</th>  
+        <th>Age</th>   
+        <th>Gender</th>
+        <th>Birthday</th>
+        <th>Course</th>
+        <th>School Year</th>
+    </thead>
+    <tbody>
+        <td>Jhon</td>
+        <td>Smith</td>
+        <td>Doe</td>
+        <td>18</td>
+        <td>Male</td>
+        <td>1/1/2000</td>
+        <td>Computer Science</td>
+        <td>2023-2024</td>
+    </tbody>
+    </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer>
+    
+</footer>
+</html>
