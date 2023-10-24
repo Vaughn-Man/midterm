@@ -18,7 +18,11 @@ td{
 .inputfield
         {
             align-items: center;
+            margin-top: 12px;
             margin-bottom: 12px;
+            background-color: #3088da;
+            width: 400px;
+            height: auto;
         }
 #myInput{
     width: 20%;
@@ -30,3 +34,8 @@ td{
 body{
     background-color: rgb(20, 243, 243);
 }
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }

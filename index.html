@@ -6,21 +6,36 @@
 </head>
 <body>
     
-   
-    <div class="inputfield">
     <h1>School Enrollment Application</h1>
-    <p>First Name: <input id="fname"></p>
-    <p>Middle Name: <input id="mname"></p>
-    <p>Last Name: <input id="lname"></p>
-    <p>Age: <input id="age"></p>
-    <p>Gender: <select name="gender" id="gender" width=100 style="width: 150px">
+    <div class="inputfield">
+    <label>First Name: </label>
+    <input type="text" id="fname" />
+    <br>
+    <label>Middle Name: </label>
+    <input type="text" id="mname" />
+    <br>
+    <label>Last Name: </label>
+    <input type="text" id="lname" />
+    <br>
+    <label>Age: </label>
+    <input type="text" id="age" />
+    <br>
+    <label>Gender: </label>
+    <select name="gender" id="gender" width=100 style="width: 150px">
         <option value='' selected>Select a Gender</option>
         <option value="Male">Male</option>
-        <option value="Female">Female</option></select> </p>
-    <p>Birthday: <input id="birth"></p>
-    <p>Course: <input id="course"></p>
-    <p>School Year: <input id="year"></p>
-    <input type="button" id="submit" value="Submit">
+        <option value="Female">Female</option></select>
+    <br>
+    <label>Birthday: </label>
+    <input type="text" id="birth" />
+    <br>
+    <label>Course: </label>
+    <input type="text" id="course" />
+    <br>
+    <label>School Year: </label>
+    <input type="text" id="year" />
+    <br>
+    <center><input type="button" id="submit" value="Submit"></center>
     </div>
 
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for students">
