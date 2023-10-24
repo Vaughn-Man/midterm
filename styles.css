@@ -38,4 +38,6 @@ label {
     display: inline-block;
     width: 150px;
     text-align: right;
+    margin-bottom: 10px;
+    margin-top: 5px;
   }
