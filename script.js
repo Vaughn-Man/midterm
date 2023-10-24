@@ -1,6 +1,5 @@
 document.getElementById("submit").onclick = function () {
 
-  
     var table = document.getElementById("table");
     var row = table.insertRow(-1);
     var fname = row.insertCell(0);
@@ -11,6 +10,8 @@ document.getElementById("submit").onclick = function () {
     var birth = row.insertCell(5);
     var course = row.insertCell(6);
     var year = row.insertCell(7);
+    var remove = row.insertCell(8);
+
 
     fname.innerHTML = document.getElementById("fname").value;
     mname.innerHTML = document.getElementById("mname").value;
@@ -20,6 +21,8 @@ document.getElementById("submit").onclick = function () {
     birth.innerHTML = document.getElementById("birth").value;
     course.innerHTML = document.getElementById("course").value;
     year.innerHTML = document.getElementById("year").value;
+    remove.innerHTML = '<input type="button" value="Delete" onclick="deleteRow(this)">';
+
    
     return false;
   }
@@ -44,4 +47,8 @@ document.getElementById("submit").onclick = function () {
         }
       }
     }
+  }
+  function deleteRow(r) {
+    var i = r.parentNode.parentNode.rowIndex;
+    document.getElementById("table").deleteRow(i);
   }
